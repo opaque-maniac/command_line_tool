@@ -6,11 +6,11 @@ cd              - change directory
 pwd             - display active working directory
 clear           - clears text on screen
 ls              - list content of current working directory
-ls $name        - list content of folder, replace name with foler name
-touch $name     - creates a file, replace name with file name
-mkdir $name     - creates a folder, replace name with folder name
-rm $name        - deletes folder, replace name with file/folder name
-cat $name       - display content of file, replace name with file name
+ls $name        - list content of folder, replace $name with foler name
+touch $name     - creates a file, replace $name with file name
+mkdir $name     - creates a folder, replace $name with folder name
+rm $name        - deletes folder, replace $name with file/folder name
+cat $name       - display content of file, replace $name with file name
 help            - display this help menu
-help $name      - display help for a certain command, replace name with command
+help $name      - display help for a certain command, replace $name with command
 exit            - quit current terminal session

@@ -124,6 +124,19 @@ def helping(command):
         print("Invalid command entered or an error occured")
     print("")
     
+#function to search for files in current active directory
+def check(command):
+    a = os.listdir()
+    if command[5:]:
+        target = command[6:]
+        if target in a:
+            print("%s in current dir" % (target))
+        else:
+            print("%s not in current dir" % (target))
+    else:
+        print("Enter name of file or folder to find")
+    print("")
+    
 #main function that accepts input and shows output
 def interface():
     clear()
@@ -147,6 +160,8 @@ def interface():
             create(command)
         elif command[:4] == "help":
             helping(command)
+        elif command[:5] == "check":
+            check(command)
         elif command == "exit":
             exit()
         else:

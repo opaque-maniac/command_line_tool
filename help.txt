@@ -11,6 +11,7 @@ touch $name     - creates a file, replace $name with file name
 mkdir $name     - creates a folder, replace $name with folder name
 rm $name        - deletes folder, replace $name with file/folder name
 cat $name       - display content of file, replace $name with file name
+check $name     - searches for file or folder in current dir, replace $name with file, folder name
 help            - display this help menu
 help $name      - display help for a certain command, replace $name with command
 exit            - quit current terminal session
